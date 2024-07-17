@@ -40,5 +40,7 @@ Este projeto está licenciado sob a licença MIT. Veja o arquivo [LICENSE.txt](L
 **Contato:**  
 
 Igo da Costa Andrade
+
 **E-mail**: igoandrade@uft.edu.br 
+
 **GH Pages**: https://iandrade-uft.github.io/
