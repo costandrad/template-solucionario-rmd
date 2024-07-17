@@ -170,44 +170,8 @@ Para usar os templates deste repositório, siga os passos abaixo:
     cd seu-repositorio
     ```
 
-3. Copie o template desejado do diretório `templates` para o seu projeto:
-    ```sh
-    cp templates/seu-template.Rmd /caminho/para/seu/projeto/
-    ```
+3. Edite o arquivo RMarkdown copiado conforme necessário. Você pode adicionar seu conteúdo e inserir código R e Python como mostrado nos exemplos abaixo.
 
-4. Edite o arquivo RMarkdown copiado conforme necessário. Você pode adicionar seu conteúdo e inserir código R e Python como mostrado nos exemplos abaixo.
-
-## Exemplo de Uso
-
-### Código R
-
-```r
-```{r}
-# Carregar bibliotecas
-library(ggplot2)
-
-# Criar um gráfico de exemplo
-ggplot(mtcars, aes(x = wt, y = mpg)) +
-  geom_point()
-
-javascript
-
-
-### Código Python
-
-```python
-```{python}
-# Importar bibliotecas
-import matplotlib.pyplot as plt
-import seaborn as sns
-import pandas as pd
-
-# Criar um gráfico de exemplo
-df = sns.load_dataset("iris")
-sns.pairplot(df, hue="species")
-plt.show()
-
-yaml
 
 
 ## Contribuição
@@ -216,7 +180,7 @@ Contribuições são bem-vindas! Se você tiver um novo template ou melhorias pa
 
 ## Licença
 
-Este projeto está licenciado sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+Este projeto está licenciado sob a licença MIT. Veja o arquivo [LICENSE.txt](LICENSE) para mais detalhes.
 
 ---
 
