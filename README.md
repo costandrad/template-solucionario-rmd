@@ -42,21 +42,21 @@ As principais melhorias implementadas incluem:
 
 Para usar os templates deste repositório, siga os passos abaixo:
 
-    Clone o repositório:
+1. Clone o repositório:
 
-git clone https://github.com/costandrad/template-solucionario-rmd.git
+        git clone https://github.com/costandrad/template-solucionario-rmd.git
 
-Acesse o diretório clonado:
+2. Acesse o diretório clonado:
 
-    cd template-solucionario-rmd
+        cd template-solucionario-rmd
 
-    Escolha e edite um dos arquivos .Rmd:
+3. Escolha e edite um dos arquivos .Rmd:
 
         Para Python: src/template_using_python.Rmd
 
         Para R: src/template_using_r.Rmd
 
-    Compile o documento no RStudio ou usando o rmarkdown::render() no console do R.
+4. Compile o documento no RStudio ou usando o `rmarkdown::render()`  no console do R.
 
 
 ## 📄 Licença
