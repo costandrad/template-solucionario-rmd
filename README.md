@@ -16,27 +16,27 @@ As principais melhorias implementadas incluem:
 
 📂 Estrutura do Repositório
 
-.
-├── assets/                         # Recursos estáticos para a página HTML
-│   ├── css/                        # Estilos CSS
-│   ├── img/                        # Imagens utilizadas
-│   └── js/                         # Scripts JavaScript
-│
-├── vendor/                         # Dependências de terceiros (se aplicável)
-│
-├── output/                         # Documentos gerados
-│   ├── template_using_python.pdf   # PDF gerado com código em Python
-│   └── template_using_r.pdf        # PDF gerado com código em R
-│
-├── src/                            # Arquivos-fonte dos documentos
-│   ├── template_using_python.Rmd   # RMarkdown com código em Python
-│   └── template_using_r.Rmd        # RMarkdown com código em R
-│
-├── template.tex                    # Template LaTeX usado na formatação final
-├── index.html                      # Página de apresentação (GH Pages)
-├── .gitignore                      # Arquivo de exclusão do Git
-├── LICENSE.txt                     # Licença do projeto
-└── README.md                       # Este arquivo de documentação
+    .
+    ├── assets/                         # Recursos estáticos para a página HTML
+    │   ├── css/                        # Estilos CSS
+    │   ├── img/                        # Imagens utilizadas
+    │   └── js/                         # Scripts JavaScript
+    │
+    ├── vendor/                         # Dependências de terceiros (se aplicável)
+    │
+    ├── output/                         # Documentos gerados
+    │   ├── template_using_python.pdf   # PDF gerado com código em Python
+    │   └── template_using_r.pdf        # PDF gerado com código em R
+    │
+    ├── src/                            # Arquivos-fonte dos documentos
+    │   ├── template_using_python.Rmd   # RMarkdown com código em Python
+    │   └── template_using_r.Rmd        # RMarkdown com código em R
+    │
+    ├── template.tex                    # Template LaTeX usado na formatação final
+    ├── index.html                      # Página de apresentação (GH Pages)
+    ├── .gitignore                      # Arquivo de exclusão do Git
+    ├── LICENSE.txt                     # Licença do projeto
+    └── README.md                       # Este arquivo de documentação
 
 🚀 Como Usar
 
