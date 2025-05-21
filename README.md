@@ -53,9 +53,13 @@ Para usar os templates deste repositório, siga os passos abaixo:
 
 3. Escolha e edite um dos arquivos .Rmd:
 
-        Para Python: src/template_using_python.Rmd
+3.1 Para Python: 
 
-        Para R: src/template_using_r.Rmd
+        src/template_using_python.Rmd
+
+3.2 Para R: 
+        
+        src/template_using_r.Rmd
 
 4. Compile o documento no RStudio ou usando o `rmarkdown::render()`  no console do R.
 
@@ -68,5 +72,12 @@ Confira o arquivo LICENSE.txt para mais informações.
 ## 📬 Contato
 
 Autor: Igo da Costa Andrade
-E-mail: costandrad@gmail.com
-GitHub Pages: https://costandrad.github.io/
+<p align="left">
+
+
+  <a href="mailto:costandrad@gmail.com" target="_blank">
+    <img src="https://img.shields.io/badge/Email-white?logo=gmail&width=200&height=36" alt="Email" style="vertical-align:top;">
+  </a>
+
+
+</p>
