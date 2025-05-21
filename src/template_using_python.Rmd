@@ -1,5 +1,5 @@
 ---
-title: "Título"
+title: ""
 author: "Igo da Costa Andrade"
 
 # Metadados
@@ -9,12 +9,22 @@ bookauthors: "Autor, A.B"
 bookaddres: "Local"
 bookpublisher: "Editora"
 bookyear: "2000"
+maincolor: "01796F"
 chaptertitle: "Usando código R"
 chapternumber: "1"
 
 output: 
   bookdown::pdf_document2:
     template: template.tex
+knit: >-
+  (function(inputFile, encoding) {
+    rmarkdown::render(
+      input = inputFile,
+      encoding = encoding,
+      output_dir = file.path(dirname(inputFile), "../output"),
+      output_format = "bookdown::pdf_document2"
+    )
+  })
 ---
 
 ```{r setup, include=FALSE}
