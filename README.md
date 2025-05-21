@@ -1,4 +1,4 @@
-📄 RMarkdown Templates
+# 📄 RMarkdown Templates
 
 Bem-vindo ao repositório de templates de arquivos RMarkdown!
 Este repositório contém modelos customizados que utilizam um arquivo LaTeX (template.tex) para formatação, permitindo a geração de documentos bem estruturados com suporte à execução de código tanto em R quanto em Python — ideal para análises reprodutíveis e relatórios técnicos.
@@ -14,7 +14,7 @@ As principais melhorias implementadas incluem:
 
     ⚙️ Suporte completo a código R e Python dentro dos arquivos .Rmd.
 
-📂 Estrutura do Repositório
+## 📂 Estrutura do Repositório
 
     .
     ├── assets/                         # Recursos estáticos para a página HTML
@@ -38,7 +38,7 @@ As principais melhorias implementadas incluem:
     ├── LICENSE.txt                     # Licença do projeto
     └── README.md                       # Este arquivo de documentação
 
-🚀 Como Usar
+## 🚀 Como Usar
 
 Para usar os templates deste repositório, siga os passos abaixo:
 
@@ -59,11 +59,12 @@ Acesse o diretório clonado:
     Compile o documento no RStudio ou usando o rmarkdown::render() no console do R.
 
 
-📄 Licença
+## 📄 Licença
 
 Este projeto está licenciado sob a licença MIT.
 Confira o arquivo LICENSE.txt para mais informações.
-📬 Contato
+
+## 📬 Contato
 
 Autor: Igo da Costa Andrade
 E-mail: costandrad@gmail.com
