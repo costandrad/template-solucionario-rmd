@@ -2,9 +2,10 @@
 
 Bem-vindo ao repositório de templates de arquivos RMarkdown!
 Este repositório contém modelos customizados que utilizam um arquivo LaTeX (template.tex) para formatação, permitindo a geração de documentos bem estruturados com suporte à execução de código tanto em R quanto em Python — ideal para análises reprodutíveis e relatórios técnicos.
-🌱 Origem e Melhorias
 
-Este repositório é um fork do projeto original de iandrade-uft/template-solucionario-rmd.
+## 🌱 Origem e Melhorias
+
+Este repositório é um fork do projeto original de [iandrade-uft/template-solucionario-rmd](https://github.com/iandrade-uft/template-solucionario-rmd).
 
 As principais melhorias implementadas incluem:
 
