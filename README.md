@@ -8,11 +8,11 @@ Este repositório é um fork do projeto original de iandrade-uft/template-soluci
 
 As principais melhorias implementadas incluem:
 
-    📁 Reorganização da estrutura de pastas, com separação clara entre ativos estáticos, código-fonte e arquivos gerados;
+    * 📁 Reorganização da estrutura de pastas, com separação clara entre ativos estáticos, código-fonte e arquivos gerados;
 
-    🌐 Inclusão de uma página HTML (index.html) para apresentação do projeto via GitHub Pages;
+    * 🌐 Inclusão de uma página HTML (index.html) para apresentação do projeto via GitHub Pages;
 
-    ⚙️ Suporte completo a código R e Python dentro dos arquivos .Rmd.
+    * ⚙️ Suporte completo a código R e Python dentro dos arquivos .Rmd.
 
 ## 📂 Estrutura do Repositório
 
