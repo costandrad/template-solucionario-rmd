@@ -53,13 +53,13 @@ Para usar os templates deste repositório, siga os passos abaixo:
 
 3. Escolha e edite um dos arquivos .Rmd:
 
-3.1 Para Python: 
+    * Para Python: 
 
-        src/template_using_python.Rmd
+            src/template_using_python.Rmd
 
-3.2 Para R: 
+     * Para R: 
         
-        src/template_using_r.Rmd
+            src/template_using_r.Rmd
 
 4. Compile o documento no RStudio ou usando o `rmarkdown::render()`  no console do R.
 
