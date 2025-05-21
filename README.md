@@ -67,17 +67,22 @@ Para usar os templates deste repositório, siga os passos abaixo:
 ## 📄 Licença
 
 Este projeto está licenciado sob a licença MIT.
-Confira o arquivo [LICENSE.txt]([https://github.com/costandrad/](https://github.com/costandrad/template-solucionario-rmd/blob/main/LICENSE.txt)) para mais informações.
+Confira o arquivo [LICENSE.txt](https://github.com/costandrad/template-solucionario-rmd/blob/main/LICENSE.txt) para mais informações.
 
-## 📬 Contato
+## 🧑‍💻 Autor
 
-Autor: Igo da Costa Andrade
+### Igo da Costa Andrade
+
 <p align="left">
-
+  <a href="https://costandrad.github.io/" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub%20Pages-gray?logo=github&width=200&height=36" alt="Github Pages" style="vertical-align:top;">
+  </a>
 
   <a href="mailto:costandrad@gmail.com" target="_blank">
     <img src="https://img.shields.io/badge/Email-white?logo=gmail&width=200&height=36" alt="Email" style="vertical-align:top;">
   </a>
 
-
+  <a href="http://lattes.cnpq.br/9812776894168057" target="_blank">
+    <img src="https://img.shields.io/badge/Lattes-blue?logo=google-scholar&logoColor=white&width=200&height=36" alt="Lattes" style="vertical-align:top;">
+  </a>
 </p>
