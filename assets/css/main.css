@@ -768,6 +768,7 @@ section,
 # Hero Section
 --------------------------------------------------------------*/
 .hero {
+  min-height: 100vh;
   padding-top: 140px;
   position: relative;
   overflow: hidden;
@@ -1611,6 +1612,7 @@ section,
 # Portfolio Section
 --------------------------------------------------------------*/
 .portfolio {
+  min-height: 100vh;
   margin-top: 80px;
 }
 
