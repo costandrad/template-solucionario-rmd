@@ -67,7 +67,7 @@ Para usar os templates deste repositório, siga os passos abaixo:
 ## 📄 Licença
 
 Este projeto está licenciado sob a licença MIT.
-Confira o arquivo LICENSE.txt para mais informações.
+Confira o arquivo [LICENSE.txt]([https://github.com/costandrad/](https://github.com/costandrad/template-solucionario-rmd/blob/main/LICENSE.txt)) para mais informações.
 
 ## 📬 Contato
 
