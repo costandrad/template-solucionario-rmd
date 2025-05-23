@@ -213,3 +213,15 @@
   document.addEventListener('scroll', navmenuScrollspy);
 
 })();
+
+fetch("https://api.github.com/repos/costandrad/template-solucionario-rmd/commits?per_page=1")
+  .then(response => response.json())
+  .then(data => {
+    const dataCommit = new Date(data[0].commit.committer.date);
+    const dataFormatada = dataCommit.toLocaleDateString('pt-BR');
+    document.getElementById("ultima-atualizacao").textContent =
+      `${dataFormatada}`;
+  })
+  .catch(error => {
+    console.error("Erro ao buscar data do commit:", error);
+  });

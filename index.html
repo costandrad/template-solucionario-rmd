@@ -8,8 +8,8 @@
     <meta name="keywords" content="" />
 
     <!-- Favicons -->
-    <link href="assets/img/favicon.png" rel="icon" />
-    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+    <link href="assets/img/favicon.png?v=2" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png?v=2" rel="apple-touch-icon" />
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com" rel="preconnect" />
@@ -57,9 +57,8 @@
           class="logo d-flex align-items-center me-auto me-xl-0"
         >
           <!-- Uncomment the line below if you also wish to use an image logo -->
-          <!-- <img src="assets/img/logo.webp" alt=""> -->
-          <h1 class="sitename">Costandrad</h1>
-          <span>.</span>
+          <img src="assets/img/logo-3.png" alt="" />
+          <!--<h1 class="sitename">Costandrad</h1><span>.</span>-->
         </a>
 
         <nav id="navmenu" class="navmenu">
@@ -159,31 +158,17 @@
                 <h3 class="">Arquivos do projeto</h3>
 
                 <ul>
-                  <li class="d-flex align-items-start gap-2">
+                  <li class="d-flex align-items-start gap-2 py-1">
                     <i class="bi bi-check-circle"></i>
-                    <ul class="px-1">
-                      <li class="fw-bold py-0">
-                        Arquivo 01
-                      </li>
-                      <li><a href="#">www.example.com</a></li>
-                    </ul>                  </li>
-                  <li class="d-flex gap-2">
-                    <i class="bi bi-check-circle"></i>
-                    <ul class="px-1">
-                      <li class="fw-bold py-0">
-                        Arquivo 02
-                      </li>
-                      <li><a href="#">www.example.com</a></li>
-                    </ul>
+                    <a href="#">www.example.com</a>
                   </li>
-                  <li class="d-flex gap-2">
+                  <li class="d-flex gap-2 py-1">
                     <i class="bi bi-check-circle"></i>
-                    <ul class="px-1">
-                      <li class="fw-bold py-0">
-                        Arquivo 03
-                      </li>
-                      <li><a href="#">www.example.com</a></li>
-                    </ul>
+                    <a href="#">www.example.com</a>
+                  </li>
+                  <li class="d-flex gap-2 py-1">
+                    <i class="bi bi-check-circle"></i>
+                    <a href="#">www.example.com</a>
                   </li>
                 </ul>
               </div>
@@ -212,23 +197,35 @@
                     }
                   </script>
                   <div class="swiper-wrapper align-items-center">
-                    <div class="swiper-slide">
-                      <img src="assets/img/portfolio/portfolio-1.webp" alt="" />
-                    </div>
-
-                    <div class="swiper-slide">
+                    <div
+                      class="swiper-slide"
+                      style="text-align: center; background-color: #f4f4f9"
+                    >
                       <img
-                        src="assets/img/portfolio/portfolio-10.webp"
+                        src="assets/img/cover.png"
                         alt=""
+                        style="width: auto; height: 250px"
                       />
                     </div>
-
-                    <div class="swiper-slide">
-                      <img src="assets/img/portfolio/portfolio-7.webp" alt="" />
+                    <div
+                      class="swiper-slide"
+                      style="text-align: center; background-color: #f4f4f9"
+                    >
+                      <img
+                        src="assets/img/cover.png"
+                        alt=""
+                        style="width: auto; height: 250px"
+                      />
                     </div>
-
-                    <div class="swiper-slide">
-                      <img src="assets/img/portfolio/portfolio-4.webp" alt="" />
+                    <div
+                      class="swiper-slide"
+                      style="text-align: center; background-color: #f4f4f9"
+                    >
+                      <img
+                        src="assets/img/cover.png"
+                        alt=""
+                        style="width: auto; height: 250px"
+                      />
                     </div>
                   </div>
                   <div class="swiper-button-prev"></div>
@@ -247,9 +244,8 @@
                       <a href="#">www.example.com</a>
                     </li>
                     <li>
-                      <a href="#" class="btn-visit align-self-start"
-                        >Conheça o repositório</a
-                      >
+                      <strong>Última Atualização</strong>
+                      <span id="ultima-atualizacao"></span>
                     </li>
                   </ul>
                 </div>
