@@ -525,3 +525,5 @@ rsconnect/
 /assets/
 index.html
 vendor/
+
+.vscode
