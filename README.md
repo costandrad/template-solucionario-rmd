@@ -1,88 +1,43 @@
-# 📄 RMarkdown Templates
+# 🌐 Página Web do Projeto
 
-Bem-vindo ao repositório de templates de arquivos RMarkdown!
-Este repositório contém modelos customizados que utilizam um arquivo LaTeX (template.tex) para formatação, permitindo a geração de documentos bem estruturados com suporte à execução de código tanto em R quanto em Python — ideal para análises reprodutíveis e relatórios técnicos.
+[![Acessar Código Científico](https://img.shields.io/badge/main-Ver%20Código%20Fonte-blue?logo=github)](https://github.com/costandrad/template-solucionario-rmd/tree/main)
 
-## 🌱 Origem e Melhorias
+Página de apresentação dos templates RMarkdown, hospedada via GitHub Pages.
 
-Este repositório é um fork do projeto original de [iandrade-uft/template-solucionario-rmd](https://github.com/iandrade-uft/template-solucionario-rmd).
+## 📂 Estrutura do Site
 
-As principais melhorias implementadas incluem:
+```bash
+.
+├── assets/
+│ ├── css/ # Estilos
+│ ├── img/ # Imagens
+│ ├── js/ # Scripts
+│ └── vendor/ # Dependências de terceiros
+│ 
+└── index.html # Página principal
+```
 
- * 📁 Reorganização da estrutura de pastas, com separação clara entre ativos estáticos, código-fonte e arquivos gerados;
 
- * 🌐 Inclusão de uma página HTML (index.html) para apresentação do projeto via GitHub Pages;
+## 🔗 Links Rápidos
+- [Acessar Site](https://costandrad.github.io/template-solucionario-rmd/)
+- [Repositório Científico (branch main)](https://github.com/costandrad/template-solucionario-rmd/tree/main)
 
- * ⚙️ Suporte completo a código R e Python dentro dos arquivos .Rmd.
-
-## 📂 Estrutura do Repositório
-
-    .
-    ├── assets/                         # Recursos estáticos para a página HTML
-    │   ├── css/                        # Estilos CSS
-    │   ├── img/                        # Imagens utilizadas
-    │   └── js/                         # Scripts JavaScript
-    │
-    ├── vendor/                         # Dependências de terceiros (se aplicável)
-    │
-    ├── output/                         # Documentos gerados
-    │   ├── template_using_python.pdf   # PDF gerado com código em Python
-    │   └── template_using_r.pdf        # PDF gerado com código em R
-    │
-    ├── src/                            # Arquivos-fonte dos documentos
-    │   ├── template_using_python.Rmd   # RMarkdown com código em Python
-    │   └── template_using_r.Rmd        # RMarkdown com código em R
-    │
-    ├── template.tex                    # Template LaTeX usado na formatação final
-    ├── index.html                      # Página de apresentação (GH Pages)
-    ├── .gitignore                      # Arquivo de exclusão do Git
-    ├── LICENSE.txt                     # Licença do projeto
-    └── README.md                       # Este arquivo de documentação
-
-## 🚀 Como Usar
-
-Para usar os templates deste repositório, siga os passos abaixo:
-
-1. Clone o repositório:
-
-        git clone https://github.com/costandrad/template-solucionario-rmd.git
-
-2. Acesse o diretório clonado:
-
-        cd template-solucionario-rmd
-
-3. Escolha e edite um dos arquivos .Rmd:
-
-    * Para Python: 
-
-            src/template_using_python.Rmd
-
-     * Para R: 
-        
-            src/template_using_r.Rmd
-
-4. Compile o documento no RStudio ou usando o `rmarkdown::render()`  no console do R.
-
+## 📄 Sobre o Projeto
+Este site apresenta templates RMarkdown com:
+- Suporte a **R e Python**
+- Formatação profissional com **LaTeX**
+- Estrutura organizada para análise reprodutível
 
 ## 📄 Licença
-
-Este projeto está licenciado sob a licença MIT.
-Confira o arquivo [LICENSE.txt](https://github.com/costandrad/template-solucionario-rmd/blob/main/LICENSE.txt) para mais informações.
+MIT - Veja [LICENSE](LICENSE.txt).
 
 ## 🧑‍💻 Autor
-
 ### Igo da Costa Andrade
-
 <p align="left">
-  <a href="https://costandrad.github.io/" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub%20Pages-gray?logo=github&width=200&height=36" alt="Github Pages" style="vertical-align:top;">
+  <a href="https://costandrad.github.io/">
+    <img src="https://img.shields.io/badge/GitHub%20Pages-gray?logo=github" alt="Github Pages">
   </a>
-
-  <a href="mailto:costandrad@gmail.com" target="_blank">
-    <img src="https://img.shields.io/badge/Email-white?logo=gmail&width=200&height=36" alt="Email" style="vertical-align:top;">
-  </a>
-
-  <a href="http://lattes.cnpq.br/9812776894168057" target="_blank">
-    <img src="https://img.shields.io/badge/Lattes-blue?logo=google-scholar&logoColor=white&width=200&height=36" alt="Lattes" style="vertical-align:top;">
+  <a href="mailto:costandrad@gmail.com">
+    <img src="https://img.shields.io/badge/Email-white?logo=gmail" alt="Email">
   </a>
 </p>

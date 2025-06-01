@@ -520,3 +520,27 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# === Arquivos Científicos === #
+/src/
+/output/
+template.tex
+*.Rmd
+*.ipynb
+
+# === Python/R === #
+__pycache__/
+.Rhistory
+
+# === LaTeX === #
+*.aux
+*.log
+
+# === Node/Dev === #
+node_modules/
+package-lock.json
+.sass-cache/
+
+# === Sistemas === #
+.DS_Store
+Thumbs.db
