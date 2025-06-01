@@ -520,3 +520,8 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# === Arquivos Web === #
+/assets/
+index.html
+vendor/
