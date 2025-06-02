@@ -1,13 +1,16 @@
-# 📄 RMarkdown Templates
+# 🌐 Página Web do Projeto
 
-[![Acessar Versão Web](https://img.shields.io/badge/gh--pages-Visualizar%20Site-blue?logo=github)](https://github.com/costandrad/template-solucionario-rmd/tree/gh-pages)
+
 
 Bem-vindo ao repositório de templates de arquivos RMarkdown!
 Este repositório contém modelos customizados que utilizam um arquivo LaTeX (template.tex) para formatação, permitindo a geração de documentos bem estruturados com suporte à execução de código tanto em R quanto em Python — ideal para análises reprodutíveis e relatórios técnicos.
+=======
+[![Acessar Código Científico](https://img.shields.io/badge/main-Ver%20Código%20Fonte-blue?logo=github)](https://github.com/costandrad/template-solucionario-rmd/tree/main)
 
-## 🌱 Origem e Melhorias
 
-Este repositório é um fork do projeto original de [iandrade-uft/template-solucionario-rmd](https://github.com/iandrade-uft/template-solucionario-rmd).
+Página de apresentação dos templates RMarkdown, hospedada via GitHub Pages.
+
+## 📂 Estrutura do Site
 
 As principais melhorias implementadas incluem:
 * 📁 Reorganização da estrutura de pastas
@@ -50,7 +53,6 @@ MIT - Veja [LICENSE](https://license.txt/).
 
 
 ## 🧑‍💻 Autor
-
 ### Igo da Costa Andrade
 
 <p align="left"> 
